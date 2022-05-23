@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.6)  23 MAY 2022 11:43
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.6)  23 MAY 2022 16:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -264,21 +264,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [1
 
-] (quantify_16S_ratios.bbl
+] [2] [3] (quantify_16S_ratios.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [2] [3] (quantify_16S_ratios.aux)
+) [4] (quantify_16S_ratios.aux)
 Package rerunfilecheck Info: File `quantify_16S_ratios.out' has not changed.
-(rerunfilecheck)             Checksum: CE1A7F63808B3AA2C2C424ED9995E4CF;983.
+(rerunfilecheck)             Checksum: E1C04E9E8E85614093D9D56A61BCE54A;2450.
  ) 
 Here is how much of TeX's memory you used:
- 7779 strings out of 410967
- 122298 string characters out of 2823754
- 429668 words of memory out of 3000000
- 28462 multiletter control sequences out of 15000+600000
+ 7786 strings out of 410967
+ 122348 string characters out of 2823754
+ 432590 words of memory out of 3000000
+ 28469 multiletter control sequences out of 15000+600000
  472411 words of font info for 45 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,6n,64p,254b,319s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 60i,6n,64p,265b,406s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on quantify_16S_ratios.xdv (3 pages, 37620 bytes).
+Output written on quantify_16S_ratios.xdv (4 pages, 66712 bytes).

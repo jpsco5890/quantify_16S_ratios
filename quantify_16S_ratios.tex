@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[onecolumn]{article}
 \usepackage{cite}
 \usepackage[colorlinks=true]{hyperref}
 
@@ -18,10 +18,10 @@ In addition to any experimental mixtures,
 pure cultures of community members are needed for the analysis.
 
 \subsection{Materials}
-\begin{enumerate}
+\begin{itemize}
   \item Pure and mixed liquid cultures
   \item 2-mL microcentrifuge tubes
-\end{enumerate}
+\end{itemize}
 
 \subsection{Method}
 \begin{enumerate}
@@ -38,11 +38,11 @@ please follow its instructions,
 and then proceed to \hyperref[1rA]{16S rDNA Amplification}.
 
 \subsection{Materials}
-\begin{enumerate}
+\begin{itemize}
   \item QIAGEN DNeasy Blood \& Tissue kit
   \item 100\% ethanol
   \item Cell pellets from cultures collected in \hyperref[CC]{Culture Collection}
-\end{enumerate}
+\end{itemize}
 
 \subsection{Method}
 Follow the subsequent instruction in parallel for all samples to be processed.
@@ -56,11 +56,54 @@ Follow the subsequent instruction in parallel for all samples to be processed.
   \item Check gDNA concentration on the nano spectrophotometer. Then store at $-20^\circ$C or continue to \hyperref[1rA]{16S rDNA Amplification}.
 \end{enumerate}
 
-
 \section{16S rDNA Amplification}\label{1rA}
+\subsection{Overview}
+This section describes how to amplify the 16S rDNA using Phusion polymerase for Sanger sequencing.
+If you are using a different polymerase,
+please follow its specific instructions and proceed to \hyperref[SS]{Sanger Sequencing}.
+
+\subsection{Materials}
+\begin{itemize}
+  \item ddH$_2$O
+  \item Phusion polymerase
+  \item 5X High Fidelity (HF) reaction buffer
+  \item dNTPs
+  \item 27F forward primer
+  \item 1492R reverse primer
+  \item gDNA template from \hyperref[GI]{gDNA Isolation}
+\end{itemize}
+
+\subsection{Method}
+Follow the subsequent instruction in parallel for all gDNA samples collected in \hyperref[GI]{gDNA Isolation}.
+\begin{enumerate}
+  \item Mix the ddH$_2$O, dNTPs, forward/reverse primers, 5X HF buffer, and polymerase according to \hyperref[aA]{Appendix A} for $N+1$ reactions, where $N$ is the number of gDNA samples to be processed.
+  \item Pipet 38 $\mu$L of the PCR master mix into 200-$\mu$L PCR tubes. Then add 2 $\mu$L of template gDNA, at a concentration of 100 ng/$\mu$L, to the mix for each sample.
+  \item Place reactions into the thermocycler and run the PCR program specified in \hyperref[aB]{Appendix B}.
+  \item Once the run is complete, check for synthesis of the desired product using gel electrophoresis.
+  \item If the proper product was amplified, either store the reaction at $-20^\circ$ C or proceed to \hyperref[1rP]{16S rDNA Purification}
+\end{enumerate}
+
+\section{16S rDNA Purification}\label{1rP}
+\subsection{Overview}
+
+\subsection{Materials}
+
+\subsection{Methods}
+
+\section{Sanger Sequencing}\label{SS}
+\subsection{Overview}
+
+\subsection{Materials}
+
+\subsection{Method}
 
 
 
+\section{Appendix}
+\appendix
+\section{PCR Master Mix}\label{aA}
+
+\section{PCR Program}\label{aB}
 
 \bibliography{../../library-hwa_research}
 \bibliographystyle{ieeetr}
