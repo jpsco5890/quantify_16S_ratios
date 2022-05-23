@@ -11,7 +11,7 @@
 
 \tableofcontents{}
 
-\section{Culture collection}\label{CC}
+\section{Culture Collection}\label{CC}
 \subsection{Overview}
 This section describes collecting cultures for which you wish to quantify species abundances.
 In addition to any experimental mixtures,
@@ -19,28 +19,43 @@ pure cultures of community members are needed for the analysis.
 
 \subsection{Materials}
 \begin{enumerate}
-  \item Liquid culture of a mixed microbial composition
-  \item Pure, liquid cultures for each component of the mixed community
+  \item Pure and mixed liquid cultures
   \item 2-mL microcentrifuge tubes
 \end{enumerate}
 
 \subsection{Method}
 \begin{enumerate}
-  \item In a 2-mL microcentrifuge tube, Collect 1 ODmL of liquid culture for all mixtures and pure cultures.
-  \item Spin-down and remove supernatant.
-  \item Either store pellets at $-20$ $^\circ$C, or continue to \hyperref[GI]{gDNA Isolation}.
+  \item In a 2-mL microcentrifuge tube, Collect 1 ODmL of liquid culture for all mixtures and pure cultures. Spin-down and remove supernatant.
+  \item Either store pellets at $-20^\circ$C, or continue to \hyperref[GI]{gDNA Isolation}.
 \end{enumerate}
 
 \section{gDNA Isolation}\label{GI}
 \subsection{Overview}
 This section describes how to isolate gDNA to be used for 16S rDNA amplification.
-These steps are for the QIAGEN kit.
+These steps are for the QIAGEN DNeasy Blood \& Tissue Kit.
 If you happen use a different kit,
-please follow their instructions, and then proceed to \hyperref[1rA]{16S rDNA Amplification}.
+please follow its instructions,
+and then proceed to \hyperref[1rA]{16S rDNA Amplification}.
 
 \subsection{Materials}
+\begin{enumerate}
+  \item QIAGEN DNeasy Blood \& Tissue kit
+  \item 100\% ethanol
+  \item Cell pellets from cultures collected in \hyperref[CC]{Culture Collection}
+\end{enumerate}
 
 \subsection{Method}
+Follow the subsequent instruction in parallel for all samples to be processed.
+\begin{enumerate}
+  \item Resuspend pellet in 180 $\mu$L of buffer ATL, and add 20 $\mu$L of Proteinase K. Mix thoroughly by vortexing. Incubate at $56^\circ$C for 1 hour, and vortex every 15 minutes.
+  \item Vortex for 15s, then add 200 $\mu$L of buffer AL and mix thoroughly by vortexing. Immediately add 200 $\mu$L of 100\% ethanol and, again, mix thoroughly by vortexing.
+  \item Pipet the mixture from step 2 into a DNeasy Mini spin column placed in a 2-mL collection tube. Centrifuge at $\geq 6000$ x $g$ for 1 min. Afterwards, discard flow-through and collection tube.
+  \item Place DNeasy Mini spin column into a new 2-mL collection tube and add 500 $\mu$L of buffer AW1. Centrifuge at $\geq 6000$ x $g$ for 1 min. Afterwards, discard flow-through and collection tube.
+  \item Place DNeasy Mini spin column into a new 2-mL collection tube and add 500 $\mu$L of buffer AW2. Centrifuge at $20000$ x $g$ for 3 min. Afterwards, discard flow-through and collection tube.
+  \item Place DNeasy Mini spin column into a clean 1.5-mL microcentrifuge tube. Add 200 $\mu$L of buffer AE and incubate at room tempurature for 1 min. Centrifuge at $\geq 6000$ x $g$ for 1 min to elute.
+  \item Check gDNA concentration on the nano spectrophotometer. Then store at $-20^\circ$C or continue to \hyperref[1rA]{16S rDNA Amplification}.
+\end{enumerate}
+
 
 \section{16S rDNA Amplification}\label{1rA}
 
