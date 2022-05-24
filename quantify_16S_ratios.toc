@@ -1,23 +1,30 @@
-\contentsline {section}{\numberline {1}Culture Collection}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Overview}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Materials}{2}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Method}{2}{subsection.1.3}%
+\contentsline {section}{\numberline {1}Culture Collection}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Overview}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Materials}{1}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Method}{1}{subsection.1.3}%
 \contentsline {section}{\numberline {2}gDNA Isolation}{2}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Overview}{2}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Materials}{2}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Method}{2}{subsection.2.3}%
-\contentsline {section}{\numberline {3}16S rDNA Amplification}{3}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Overview}{3}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Materials}{3}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Method}{3}{subsection.3.3}%
-\contentsline {section}{\numberline {4}16S rDNA Purification}{4}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Overview}{4}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Materials}{4}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Methods}{4}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Sanger Sequencing}{4}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Overview}{4}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Materials}{4}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Method}{4}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Appendix}{4}{section.6}%
-\contentsline {section}{\numberline {A}PCR Master Mix}{4}{appendix.A}%
-\contentsline {section}{\numberline {B}PCR Program}{4}{appendix.B}%
+\contentsline {section}{\numberline {3}16S rDNA Amplification}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Overview}{2}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Materials}{2}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Method}{2}{subsection.3.3}%
+\contentsline {section}{\numberline {4}16S rDNA Purification}{3}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Overview}{3}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Materials}{3}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Method}{3}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Sanger Sequencing}{3}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Overview}{3}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Materials}{3}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Method}{3}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Quantify Species Abundances with CASEU}{3}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Overview}{3}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Materials}{3}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Method}{3}{subsection.6.3}%
+\contentsline {section}{\numberline {A}PCR}{3}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Master Mix Recipe}{3}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Thermocycler Program}{3}{subsection.A.2}%
+\contentsline {section}{\numberline {B}CASEU}{3}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}Installation}{3}{subsection.B.1}%
+\contentsline {subsection}{\numberline {B.2}Example Script}{3}{subsection.B.2}%

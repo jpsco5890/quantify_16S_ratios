@@ -1,4 +1,4 @@
-\documentclass[onecolumn]{article}
+\documentclass[twocolumn]{article}
 \usepackage{cite}
 \usepackage[colorlinks=true]{hyperref}
 
@@ -49,10 +49,10 @@ Follow the subsequent instruction in parallel for all samples to be processed.
 \begin{enumerate}
   \item Resuspend pellet in 180 $\mu$L of buffer ATL, and add 20 $\mu$L of Proteinase K. Mix thoroughly by vortexing. Incubate at $56^\circ$C for 1 hour, and vortex every 15 minutes.
   \item Vortex for 15s, then add 200 $\mu$L of buffer AL and mix thoroughly by vortexing. Immediately add 200 $\mu$L of 100\% ethanol and, again, mix thoroughly by vortexing.
-  \item Pipet the mixture from step 2 into a DNeasy Mini spin column placed in a 2-mL collection tube. Centrifuge at $\geq 6000$ x $g$ for 1 min. Afterwards, discard flow-through and collection tube.
-  \item Place DNeasy Mini spin column into a new 2-mL collection tube and add 500 $\mu$L of buffer AW1. Centrifuge at $\geq 6000$ x $g$ for 1 min. Afterwards, discard flow-through and collection tube.
-  \item Place DNeasy Mini spin column into a new 2-mL collection tube and add 500 $\mu$L of buffer AW2. Centrifuge at $20000$ x $g$ for 3 min. Afterwards, discard flow-through and collection tube.
-  \item Place DNeasy Mini spin column into a clean 1.5-mL microcentrifuge tube. Add 200 $\mu$L of buffer AE and incubate at room tempurature for 1 min. Centrifuge at $\geq 6000$ x $g$ for 1 min to elute.
+  \item Pipet the mixture from step 2 into a DNeasy Mini spin column placed in a 2-mL collection tube. Centrifuge at $\geq 6,000$ x $g$ for 1 min. Afterwards, discard flow-through and collection tube.
+  \item Place DNeasy Mini spin column into a new 2-mL collection tube and add 500 $\mu$L of buffer AW1. Centrifuge at $\geq 6,000$ x $g$ for 1 min. Afterwards, discard flow-through and collection tube.
+  \item Place DNeasy Mini spin column into a new 2-mL collection tube and add 500 $\mu$L of buffer AW2. Centrifuge at $20,000$ x $g$ for 3 min. Afterwards, discard flow-through and collection tube.
+  \item Place DNeasy Mini spin column into a clean 1.5-mL microcentrifuge tube. Add 200 $\mu$L of buffer AE and incubate at room tempurature for 1 min. Centrifuge at $\geq 6,000$ x $g$ for 1 min to elute.
   \item Check gDNA concentration on the nano spectrophotometer. Then store at $-20^\circ$C or continue to \hyperref[1rA]{16S rDNA Amplification}.
 \end{enumerate}
 
@@ -64,12 +64,10 @@ please follow its specific instructions and proceed to \hyperref[SS]{Sanger Sequ
 
 \subsection{Materials}
 \begin{itemize}
-  \item ddH$_2$O
   \item Phusion polymerase
   \item 5X High Fidelity (HF) reaction buffer
   \item dNTPs
-  \item 27F forward primer
-  \item 1492R reverse primer
+  \item 27F forward and 1492R reverse primers
   \item gDNA template from \hyperref[GI]{gDNA Isolation}
 \end{itemize}
 
@@ -78,17 +76,32 @@ Follow the subsequent instruction in parallel for all gDNA samples collected in 
 \begin{enumerate}
   \item Mix the ddH$_2$O, dNTPs, forward/reverse primers, 5X HF buffer, and polymerase according to \hyperref[aA]{Appendix A} for $N+1$ reactions, where $N$ is the number of gDNA samples to be processed.
   \item Pipet 38 $\mu$L of the PCR master mix into 200-$\mu$L PCR tubes. Then add 2 $\mu$L of template gDNA, at a concentration of 100 ng/$\mu$L, to the mix for each sample.
-  \item Place reactions into the thermocycler and run the PCR program specified in \hyperref[aB]{Appendix B}.
-  \item Once the run is complete, check for synthesis of the desired product using gel electrophoresis.
-  \item If the proper product was amplified, either store the reaction at $-20^\circ$ C or proceed to \hyperref[1rP]{16S rDNA Purification}
+  \item Place reactions into the thermocycler and run the PCR program specified in \hyperref[aA]{Appendix A}.
+  \item Once the run is complete, check for synthesis of the desired product using gel electrophoresis. If the proper product was amplified, either store the reaction at $-20^\circ$ C or proceed to \hyperref[1rP]{16S rDNA Purification}
 \end{enumerate}
 
 \section{16S rDNA Purification}\label{1rP}
 \subsection{Overview}
+This section describes how to purify the 16S rDNA amplicons from \hyperref[1rA]{16S rDNA Amplification} using the QIAGEN QIAquick PCR Purification Kit.
+If you are using a different purification kit,
+please follow its instructions and continue to \hyperref[SS]{Sanger Sequencing}.
 
 \subsection{Materials}
+\begin{itemize}
+  \item 16S rDNA PCR amplicon samples
+  \item QIAquick PCR Purification Kit
+\end{itemize}
 
-\subsection{Methods}
+\subsection{Method}
+Follow the subsequent instructions in parallel for all PCR amplicons synthesized in \hyperref[1rA]{16S rDNA Amplification}.
+\begin{enumerate}
+  \item Add 5 volumes of buffer PB to 1 volume of PCR sample and mix by pipet.
+  \item Place a QIAquick spin column in a provided 2-mL collection tube. Then apply the sample to the column and centrifuge at $\geq17,900$ x $g$ for 60 s. Discard the flow-through.
+  \item Add 750 $\mu$L of buffer PE to the column and centrifuge at $\geq17,900$ x $g$ for 60 s. Discard the flow-through.
+  \item Centrifuge the column at $\geq17,900$ x $g$ for 60 s, then transfer the column to a clean 1.5-mL microcentrifuge tube.
+  \item To elute, add 30 $\mu$L of buffer EB to the center of the column. Let stand for 1 min 60 s, and then centrifuge at $\geq17,900$ x $g$ for 60 s.
+  \item Check the concentration of the purified product on the nano spectrophotometer. Then either store at $-20^\circ$C or proceed to \hyperref[SS]{Sanger Sequencing}.
+\end{enumerate}
 
 \section{Sanger Sequencing}\label{SS}
 \subsection{Overview}
@@ -97,13 +110,23 @@ Follow the subsequent instruction in parallel for all gDNA samples collected in 
 
 \subsection{Method}
 
+\section{Quantify Species Abundances with CASEU}\label{QSAwC}
+\subsection{Overview}
 
+\subsection{Materials}
 
-\section{Appendix}
+\subsection{Method}
+
 \appendix
-\section{PCR Master Mix}\label{aA}
+\section{PCR}\label{aA}
+\subsection{Master Mix Recipe}
 
-\section{PCR Program}\label{aB}
+\subsection{Thermocycler Program}
+
+\section{CASEU}\label{aB}
+\subsection{Installation}
+
+\subsection{Example Script}
 
 \bibliography{../../library-hwa_research}
 \bibliographystyle{ieeetr}
