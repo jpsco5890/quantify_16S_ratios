@@ -1,27 +1,18 @@
 # Fdb version 3
-["bibtex quantify_16S_ratios"] 1653348606 "quantify_16S_ratios.aux" "quantify_16S_ratios.bbl" "quantify_16S_ratios" 1653436115
+["bibtex quantify_16S_ratios"] 1653438609 "quantify_16S_ratios.aux" "quantify_16S_ratios.bbl" "quantify_16S_ratios" 1653438653
   "../../library-hwa_research.bib" 1651102008 28148 2aef62eea621b2038e16a1237cb34c55 ""
   "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291867944 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "quantify_16S_ratios.aux" 1653436113 4619 5009d5abbe6d4605d9c28abed9bc52bc "xelatex"
+  "quantify_16S_ratios.aux" 1653438651 4893 f4bd6311b5b3d08c37ae940db8414b12 "xelatex"
   (generated)
   "quantify_16S_ratios.bbl"
   "quantify_16S_ratios.blg"
-["xdvipdfmx"] 1653436114 "quantify_16S_ratios.xdv" "quantify_16S_ratios.pdf" "quantify_16S_ratios" 1653436115
-  "quantify_16S_ratios.xdv" 1653436113 81344 95dc016cefb395da386583e93580a0a6 "xelatex"
+["xdvipdfmx"] 1653438652 "quantify_16S_ratios.xdv" "quantify_16S_ratios.pdf" "quantify_16S_ratios" 1653438653
+  "quantify_16S_ratios.xdv" 1653438651 94484 a78c333f01acc5a16c03331edcf000c2 "xelatex"
   (generated)
   "quantify_16S_ratios.pdf"
-["xelatex"] 1653436110 "quantify_16S_ratios.tex" "quantify_16S_ratios.xdv" "quantify_16S_ratios" 1653436115
+["xelatex"] 1653438648 "quantify_16S_ratios.tex" "quantify_16S_ratios.xdv" "quantify_16S_ratios" 1653438653
   "C:/Users/JPSCO/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1649265292 23671438 5ee61adfa58bba58259ebda9ff996060 ""
   "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136804654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
-  "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
-  "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
-  "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
-  "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
-  "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
-  "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
-  "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
-  "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
-  "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/tex/generic/atbegshi/atbegshi.sty" 1575574700 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty" 1576437202 40635 c40361e206be584d448876bba8a64a3b ""
   "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.sty" 1575930176 33961 6b5c75130e435b2bfdb9f480a09a39f9 ""
@@ -58,14 +49,15 @@
   "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.sty" 1602228096 22521 d2fceb764a442a2001d257ef11db7618 ""
   "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-xetex.def" 1644218660 37342 b51153c40d53583f92f15327233c15d1 ""
   "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/tex/latex/letltxmacro/letltxmacro.sty" 1575403136 5766 13a9e8766c47f30327caf893ece86ac8 ""
+  "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/tex/latex/preprint/authblk.sty" 1369148870 7196 985a983ce041cc8959cd31133cba0244 ""
   "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576437552 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1575574882 9715 b051d5b493d9fe5f4bc251462d039e5f ""
   "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "quantify_16S_ratios.aux" 1653436113 4619 5009d5abbe6d4605d9c28abed9bc52bc "xelatex"
-  "quantify_16S_ratios.bbl" 1653348607 52 0eba253fc001332e731e8aba3f23127b "bibtex quantify_16S_ratios"
-  "quantify_16S_ratios.out" 1653436113 3365 efe043cceb286590b7d5b82e97eacf6e "xelatex"
-  "quantify_16S_ratios.tex" 1653436107 6458 ffbf962be057958edf6a349411451537 ""
-  "quantify_16S_ratios.toc" 1653436113 2241 c44daf03b72699ff271218aa5fef34b1 "xelatex"
+  "quantify_16S_ratios.aux" 1653438651 4893 f4bd6311b5b3d08c37ae940db8414b12 "xelatex"
+  "quantify_16S_ratios.bbl" 1653438610 52 0eba253fc001332e731e8aba3f23127b "bibtex quantify_16S_ratios"
+  "quantify_16S_ratios.out" 1653438651 3595 000e13b942c1c06ff4492f9ad8e3ace3 "xelatex"
+  "quantify_16S_ratios.tex" 1653438646 7747 0c586928088f0fca30d3a63a34ef9e59 ""
+  "quantify_16S_ratios.toc" 1653438651 2388 99675a12eeb313a22a126498644162d7 "xelatex"
   (generated)
   "quantify_16S_ratios.aux"
   "quantify_16S_ratios.log"

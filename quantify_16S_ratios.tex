@@ -1,11 +1,12 @@
 \documentclass[twocolumn]{article}
 \usepackage{cite}
+\usepackage{authblk}
 \usepackage[colorlinks=true]{hyperref}
 
 \begin{document}
 
 \title{Protocol: Quantifying species abundance using 16S Sanger Sequencing and CASEU}
-\author{Jack Reddan}
+\author{Jack Reddan, Kapil Amarnath}
 
 \maketitle{}
 
@@ -105,10 +106,24 @@ Follow the subsequent instructions in parallel for all PCR amplicons synthesized
 
 \section{Sanger Sequencing}\label{SS}
 \subsection{Overview}
+This section describes how to prepare the purified 16S rDNA samples obtained from \hyperref[1rP]{16S rDNA Purification} for Sanger sequencing by \href{https://www.genewiz.com/}{Genewiz}.
+If you are suing a different sequencing platform or provider,
+please follow the relevant instructions as they most certainly will differ from what is listed here.
 
 \subsection{Materials}
-
+\begin{itemize}
+  \item Purified PCR 16S rDNA amplicons
+  \item 27F forward primer
+  \item 8-tube PCR strip
+\end{itemize}
 \subsection{Method}
+Follow the subsequent instructions in parallel for all PCR amplicons purified in \hyperref[1rA]{16S rDNA Purification}.
+\begin{enumerate}
+  \item Dilute an aliquot of the 16S rDNA amplicon to a concentration of 3 ng/$\mu$L.
+  \item Add the amplicon dilution, 27F forward primer, and ddH$_2$O to a PCR tube following the recipe in \hyperref[aB]{Appendix B}.
+  \item Label tubes using the tube number with the prefix \emph{HL} (e.g. HL1, HL2, \ldots HL\textit{N}), noting what each tube contains.
+  \item Submit a Genewiz Sanger sequencing order online and print the order form. Place both the PCR tubes and order form in a clear, sealable plastic bag and deposit in the Genewiz drop-box.
+\end{enumerate}
 
 \section{Quantify Species Abundances with CASEU}\label{QSAwC}
 \subsection{Overview}
@@ -123,7 +138,10 @@ Follow the subsequent instructions in parallel for all PCR amplicons synthesized
 
 \subsection{Thermocycler Program}
 
-\section{CASEU}\label{aB}
+\section{Genewiz}\label{aB}
+\subsection{Sample Mix Recipe}
+
+\section{CASEU}\label{aC}
 \subsection{Installation}
 
 \subsection{Example Script}

@@ -18,13 +18,15 @@
 \contentsline {subsection}{\numberline {5.1}Overview}{3}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Materials}{3}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Method}{3}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Quantify Species Abundances with CASEU}{3}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Overview}{3}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Materials}{3}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Method}{3}{subsection.6.3}%
-\contentsline {section}{\numberline {A}PCR}{3}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Master Mix Recipe}{3}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Thermocycler Program}{3}{subsection.A.2}%
-\contentsline {section}{\numberline {B}CASEU}{3}{appendix.B}%
-\contentsline {subsection}{\numberline {B.1}Installation}{3}{subsection.B.1}%
-\contentsline {subsection}{\numberline {B.2}Example Script}{3}{subsection.B.2}%
+\contentsline {section}{\numberline {6}Quantify Species Abundances with CASEU}{4}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Overview}{4}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Materials}{4}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Method}{4}{subsection.6.3}%
+\contentsline {section}{\numberline {A}PCR}{4}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Master Mix Recipe}{4}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Thermocycler Program}{4}{subsection.A.2}%
+\contentsline {section}{\numberline {B}Genewiz}{4}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}Sample Mix Recipe}{4}{subsection.B.1}%
+\contentsline {section}{\numberline {C}CASEU}{4}{appendix.C}%
+\contentsline {subsection}{\numberline {C.1}Installation}{4}{subsection.C.1}%
+\contentsline {subsection}{\numberline {C.2}Example Script}{4}{subsection.C.2}%
