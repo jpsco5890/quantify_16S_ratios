@@ -425,8 +425,8 @@ OUTPUT quantify_16S_ratios.out
 INPUT .\quantify_16S_ratios.toc
 INPUT quantify_16S_ratios.toc
 INPUT quantify_16S_ratios.toc
-OUTPUT quantify_16S_ratios.toc
 OUTPUT quantify_16S_ratios.xdv
+OUTPUT quantify_16S_ratios.toc
 INPUT .\quantify_16S_ratios.bbl
 INPUT quantify_16S_ratios.bbl
 INPUT .\quantify_16S_ratios.bbl
