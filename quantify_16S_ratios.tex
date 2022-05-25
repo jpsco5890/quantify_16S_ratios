@@ -1,4 +1,4 @@
-\documentclass[onecolumn]{article}
+\documentclass[twocolumn]{article}
 \usepackage{cite}
 \usepackage{authblk}
 \usepackage{hyperref}
@@ -12,7 +12,6 @@
 \maketitle{}
 
 \tableofcontents{}
-\newpage
 
 \section{Culture Collection}\label{CC}
 \subsection{Overview}
@@ -149,12 +148,6 @@ I do not know why you are reading this protocol.
   \item Refer to the vignette found on the \href{https://htmlpreview.github.io/?https://bitbucket.org/dattamanoshi/caseu/raw/master/doc/CASEU_Vignette.html}{CASEU Repository} for instructions on installation and a full introduction to CASEU. Also, you can see \href{https://github.com/jpsco5890/quantify_16S_ratios.git}{Jack's Repository} for an example script.
 \end{enumerate}
 
-\bibliography{../../library-hwa_research}
-\bibliographystyle{ieeetr}
-
-\newpage
-\noindent{\huge \textbf{APPENDIX}\par}
-
 \appendix
 \section{PCR}\label{aA}
 \subsection{Master Mix Recipe}
@@ -167,30 +160,82 @@ simply multiply the volumes by $N*1.1$ to account for pipetting errors.
     \hline
     \textbf{Component} & \textbf{Volume ($\mu$L)} \\
     \hline
-    ddH$_2$O & \texttt{20.8} \\
+    \texttt{ddH$_2$O} & \texttt{20.8} \\
     \hline
-    5X high-fidelity (HF) reaction buffer & \texttt{8.0} \\
+    \texttt{5X HF reaction buffer} & \texttt{8.0} \\
     \hline
-    dNTPs & \texttt{0.8}\\
+    \texttt{dNTPs} & \texttt{0.8}\\
     \hline
-    3 $\mu$M 27F forward primer & \texttt{4.0} \\
+    \texttt{3 $\mu$M 27F forward primer} & \texttt{4.0} \\
     \hline
-    3 $\mu$M 1492R reverse primer & \texttt{4.0} \\
+    \texttt{3 $\mu$M 1492R reverse primer} & \texttt{4.0} \\
     \hline
-    Phusion polymerase & \texttt{0.4} \\
+    \texttt{Phusion polymerase} & \texttt{0.4} \\
     \hline
-    template gDNA & \texttt{2.0} \\
+    \texttt{template gDNA} & \texttt{2.0} \\
     \hline
-    Total & \texttt{40.0} \\
+    \texttt{Total} & \texttt{40.0} \\
     \hline
   \end{tabular}
   \label{tab:PCR_MM}
 \end{table}
 
 \subsection{Thermocycler Program}
-
+The following program can be found under Kapil's folder in the Hwa-lab thermocycler
+(\texttt{NSB2106\textbackslash kapil\textbackslash 16s phusion}).
+\begin{table}[h]
+  \begin{tabular}{|l|c|c|}
+    \hline
+    \textbf{Step} & \textbf{Temperature ($^\circ$C)} & \textbf{Time (mm:ss)}\\
+    \hline
+    \texttt{1} & \texttt{98.0} & \texttt{00:30}\\
+    \hline
+    \texttt{2} & \texttt{98.0} & \texttt{00:10}\\
+    \hline
+    \texttt{3} & \texttt{54.0} & \texttt{00:30}\\
+    \hline
+    \texttt{4} & \texttt{72.0} & \texttt{01:30}\\
+    \hline
+    \multicolumn{3}{|c|}{\texttt{Steps 2-4 x24}}\\
+    \hline
+    \texttt{5} & \texttt{72.0} & \texttt{10:00}\\
+    \hline
+    \texttt{6} & \texttt{10.0} & \texttt{INFINITE}\\
+    \hline
+  \end{tabular}
+  \label{tab:PCR_prog}
+\end{table}
 
 \section{Genewiz}\label{aB}
 \subsection{Sample Mix Recipe}
+Below is a recipe for a single,
+15-$\mu$L 16S rDNA Sanger Sequencing sample.
+\begin{table}[h]
+  \begin{tabular}{|l|c|}
+    \hline
+    \textbf{Component} & \textbf{Volume ($\mu$L)} \\
+    \hline
+    \texttt{ddH$_2$O} & \texttt{20.8} \\
+    \hline
+    \texttt{5X HF reaction buffer} & \texttt{8.0} \\
+    \hline
+    \texttt{dNTPs} & \texttt{0.8}\\
+    \hline
+    \texttt{3 $\mu$M 27F forward primer} & \texttt{4.0} \\
+    \hline
+    \texttt{3 $\mu$M 1492R reverse primer} & \texttt{4.0} \\
+    \hline
+    \texttt{Phusion polymerase} & \texttt{0.4} \\
+    \hline
+    \texttt{template gDNA} & \texttt{2.0} \\
+    \hline
+    \texttt{Total} & \texttt{40.0} \\
+    \hline
+  \end{tabular}
+  \label{tab:SS_recp}
+\end{table}
+
+\bibliography{../../library-hwa_research}
+\bibliographystyle{ieeetr}
 
 \end{document}
