@@ -1,7 +1,8 @@
 \documentclass[onecolumn]{article}
 \usepackage{cite}
 \usepackage{authblk}
-\usepackage[colorlinks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, citecolor=black, urlcolor=cyan}
 
 \begin{document}
 
@@ -76,8 +77,8 @@ please follow its specific instructions and proceed to \hyperref[SS]{Sanger Sequ
 \subsection{Method}
 Follow the subsequent instruction in parallel for all gDNA samples collected in \hyperref[GI]{gDNA Isolation}.
 \begin{enumerate}
-  \item Mix the ddH$_2$O, dNTPs, forward/reverse primers, 5X HF buffer, and polymerase according to \hyperref[aA]{Appendix A} for $N+1$ reactions, where $N$ is the number of gDNA samples to be processed.
-  \item Pipet 38 $\mu$L of the PCR master mix into 200-$\mu$L PCR tubes. Then add 2 $\mu$L of template gDNA, at a concentration of 100 ng/$\mu$L, to the mix for each sample.
+  \item Mix the ddH$_2$O, dNTPs, forward\slash reverse primers, 5X HF buffer, and polymerase according to \hyperref[aA]{Appendix A} for $N+1$ reactions, where $N$ is the number of gDNA samples to be processed.
+  \item Pipet 38 $\mu$L of the PCR master mix into 200-$\mu$L PCR tubes. Then add 2 $\mu$L of template gDNA, at a concentration of 100 ng\slash $\mu$L, to the mix for each sample.
   \item Place reactions into the thermocycler and run the PCR program specified in \hyperref[aA]{Appendix A}.
   \item Once the run is complete, check for synthesis of the desired product using gel electrophoresis. If the proper product was amplified, either store the reaction at $-20^\circ$ C or proceed to \hyperref[1rP]{16S rDNA Purification}
 \end{enumerate}
@@ -122,7 +123,7 @@ and continue to \hyperref[SAwC]{Species Abundances with CASEU}
 \subsection{Method}
 Follow the subsequent instructions in parallel for all PCR amplicons purified in \hyperref[1rA]{16S rDNA Purification}.
 \begin{enumerate}
-  \item Dilute an aliquot of the 16S rDNA amplicon to a concentration of 3 ng/$\mu$L.
+  \item Dilute an aliquot of the 16S rDNA amplicon to a concentration of 3 ng\slash $\mu$L.
   \item Add the amplicon dilution, 27F forward primer, and ddH$_2$O to a PCR tube following the recipe in \hyperref[aB]{Appendix B}.
   \item Label tubes using the tube number with the prefix \emph{HL} (e.g. HL1, HL2, \ldots HL\textit{N}), noting what each tube contains.
   \item Submit a Genewiz Sanger sequencing order online and print the order form. Place both the PCR tubes and order form in a clear, sealable plastic bag and deposit in the Genewiz drop-box.
@@ -145,19 +146,51 @@ I do not know why you are reading this protocol.
 
 \subsection{Method}
 \begin{enumerate}
-  \item Refer to the vignette found on the \href{https://htmlpreview.github.io/?https://bitbucket.org/dattamanoshi/caseu/raw/master/doc/CASEU_Vignette.html}{CASEU Repository} for instructions on installation and a full introduction to CASEU. Also, you can see \href{https://github.com/jpsco5890/quantify_16S_ratios.git}{Jack's CASEU Repository} for an example script.
+  \item Refer to the vignette found on the \href{https://htmlpreview.github.io/?https://bitbucket.org/dattamanoshi/caseu/raw/master/doc/CASEU_Vignette.html}{CASEU Repository} for instructions on installation and a full introduction to CASEU. Also, you can see \href{https://github.com/jpsco5890/quantify_16S_ratios.git}{Jack's Repository} for an example script.
 \end{enumerate}
+
+\bibliography{../../library-hwa_research}
+\bibliographystyle{ieeetr}
+
+\newpage
+\noindent{\huge \textbf{APPENDIX}\par}
 
 \appendix
 \section{PCR}\label{aA}
 \subsection{Master Mix Recipe}
+Below is a recipe for a single,
+40-$\mu$L 16S rDNA PCR using Phusion Polymerase.
+To generate a master mix for $N$ samples,
+simply multiply the volumes by $N*1.1$ to account for pipetting errors.
+\begin{table}[h]
+  \begin{tabular}{|l|c|}
+    \hline
+    \textbf{Component} & \textbf{Volume ($\mu$L)} \\
+    \hline
+    ddH$_2$O & \texttt{20.8} \\
+    \hline
+    5X high-fidelity (HF) reaction buffer & \texttt{8.0} \\
+    \hline
+    dNTPs & \texttt{0.8}\\
+    \hline
+    3 $\mu$M 27F forward primer & \texttt{4.0} \\
+    \hline
+    3 $\mu$M 1492R reverse primer & \texttt{4.0} \\
+    \hline
+    Phusion polymerase & \texttt{0.4} \\
+    \hline
+    template gDNA & \texttt{2.0} \\
+    \hline
+    Total & \texttt{40.0} \\
+    \hline
+  \end{tabular}
+  \label{tab:PCR_MM}
+\end{table}
 
 \subsection{Thermocycler Program}
 
+
 \section{Genewiz}\label{aB}
 \subsection{Sample Mix Recipe}
-
-\bibliography{../../library-hwa_research}
-\bibliographystyle{ieeetr}
 
 \end{document}
