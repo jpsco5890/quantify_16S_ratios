@@ -130,10 +130,23 @@ Follow the subsequent instructions in parallel for all PCR amplicons purified in
 
 \section{Species Abundances with CASEU}\label{SAwC}
 \subsection{Overview}
+This section describes how to quantify species abundances with the R package \textbf{CASEU}
+(\textbf{C}ommunity \textbf{A}nalysis via \textbf{S}anger \textbf{E}lectropherogram \textbf{U}nmixing)
+\cite{Cermak_2020}
+using the sequencing results obtained from \hyperref[SS]{Sanger Sequencing}.
+If you choose to use different software to quantify abundances,
+I do not know why you are reading this protocol.
 
 \subsection{Materials}
+\begin{itemize}
+  \item .ab1 sequencing files for pure and mixed cultures
+  \item Computer with an installation of \href{https://www.r-project.org}{R}
+\end{itemize}
 
 \subsection{Method}
+\begin{enumerate}
+  \item Refer to the vignette found on the \href{https://htmlpreview.github.io/?https://bitbucket.org/dattamanoshi/caseu/raw/master/doc/CASEU_Vignette.html}{CASEU Repository} for instructions on installation and a full introduction to CASEU. Also, you can see \href{https://github.com/jpsco5890/quantify_16S_ratios.git}{Jack's CASEU Repository} for an example script.
+\end{enumerate}
 
 \appendix
 \section{PCR}\label{aA}
@@ -143,11 +156,6 @@ Follow the subsequent instructions in parallel for all PCR amplicons purified in
 
 \section{Genewiz}\label{aB}
 \subsection{Sample Mix Recipe}
-
-\section{CASEU}\label{aC}
-\subsection{Installation}
-
-\subsection{Example Script}
 
 \bibliography{../../library-hwa_research}
 \bibliographystyle{ieeetr}

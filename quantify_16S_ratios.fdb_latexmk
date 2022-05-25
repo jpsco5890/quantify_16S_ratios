@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex quantify_16S_ratios"] 1653503592 "quantify_16S_ratios.aux" "quantify_16S_ratios.bbl" "quantify_16S_ratios" 1653503683
+["bibtex quantify_16S_ratios"] 1653507361 "quantify_16S_ratios.aux" "quantify_16S_ratios.bbl" "quantify_16S_ratios" 1653507613
   "../../library-hwa_research.bib" 1651102008 28148 2aef62eea621b2038e16a1237cb34c55 ""
   "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291867944 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "quantify_16S_ratios.aux" 1653503681 4874 2674ebebe30df3fafc06059442ae0163 "xelatex"
+  "quantify_16S_ratios.aux" 1653507611 4536 27f32e7bf9321bbb269946fcb7da79bf "xelatex"
   (generated)
   "quantify_16S_ratios.bbl"
   "quantify_16S_ratios.blg"
-["xdvipdfmx"] 1653503682 "quantify_16S_ratios.xdv" "quantify_16S_ratios.pdf" "quantify_16S_ratios" 1653503683
-  "quantify_16S_ratios.xdv" 1653503681 103948 d3e8f422c7fb3d7be3cef20a3d100e85 "xelatex"
+["xdvipdfmx"] 1653507612 "quantify_16S_ratios.xdv" "quantify_16S_ratios.pdf" "quantify_16S_ratios" 1653507613
+  "quantify_16S_ratios.xdv" 1653507611 109556 3c92401e7e5800c614de6e63c2883a1c "xelatex"
   (generated)
   "quantify_16S_ratios.pdf"
-["xelatex"] 1653503677 "quantify_16S_ratios.tex" "quantify_16S_ratios.xdv" "quantify_16S_ratios" 1653503683
+["xelatex"] 1653507607 "quantify_16S_ratios.tex" "quantify_16S_ratios.xdv" "quantify_16S_ratios" 1653507613
   "C:/Users/JPSCO/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1649265292 23671438 5ee61adfa58bba58259ebda9ff996060 ""
   "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136804654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/tex/generic/atbegshi/atbegshi.sty" 1575574700 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -53,11 +53,11 @@
   "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576437552 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1575574882 9715 b051d5b493d9fe5f4bc251462d039e5f ""
   "C:/Users/JPSCO/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "quantify_16S_ratios.aux" 1653503681 4874 2674ebebe30df3fafc06059442ae0163 "xelatex"
-  "quantify_16S_ratios.bbl" 1653503593 52 0eba253fc001332e731e8aba3f23127b "bibtex quantify_16S_ratios"
-  "quantify_16S_ratios.out" 1653503681 3547 759f8664811bcc7fa8ebb060a7d3438b "xelatex"
-  "quantify_16S_ratios.tex" 1653503674 7813 a81ce57de30e65fdbb2ae117c732cd8a ""
-  "quantify_16S_ratios.toc" 1653503681 2379 ae43d9293daed2fab572d1916d4b0741 "xelatex"
+  "quantify_16S_ratios.aux" 1653507611 4536 27f32e7bf9321bbb269946fcb7da79bf "xelatex"
+  "quantify_16S_ratios.bbl" 1653507362 296 44d5a533744a52840b4011311cd64952 "bibtex quantify_16S_ratios"
+  "quantify_16S_ratios.out" 1653507611 3226 d652550f4bccb1eebb28c874a90ec83f "xelatex"
+  "quantify_16S_ratios.tex" 1653507604 8710 a8e110a2a7d1420b00abc0d46b2b767d ""
+  "quantify_16S_ratios.toc" 1653507611 2159 f97087f99c0ec594dff33c4e3b74ea5f "xelatex"
   (generated)
   "quantify_16S_ratios.aux"
   "quantify_16S_ratios.log"
