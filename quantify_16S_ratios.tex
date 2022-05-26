@@ -2,12 +2,12 @@
 \usepackage{cite}
 \usepackage{authblk}
 \usepackage{hyperref}
-\hypersetup{colorlinks=true, citecolor=black, urlcolor=cyan}
+\hypersetup{colorlinks=true, citecolor=black}
 
 \begin{document}
 
 \title{Protocol: Quantifying species abundance using 16S Sanger Sequencing and CASEU}
-\author{Jack Reddan, Kapil Amarnath}
+\author{Jack Reddan}
 
 \maketitle{}
 
@@ -54,7 +54,7 @@ Follow the subsequent instruction in parallel for all samples to be processed.
   \item Pipet the mixture from step 2 into a DNeasy Mini spin column placed in a 2-mL collection tube. Centrifuge at $\geq 6,000$ x $g$ for 1 min. Afterwards, discard flow-through and collection tube.
   \item Place DNeasy Mini spin column into a new 2-mL collection tube and add 500 $\mu$L of buffer AW1. Centrifuge at $\geq 6,000$ x $g$ for 1 min. Afterwards, discard flow-through and collection tube.
   \item Place DNeasy Mini spin column into a new 2-mL collection tube and add 500 $\mu$L of buffer AW2. Centrifuge at $20,000$ x $g$ for 3 min. Afterwards, discard flow-through and collection tube.
-  \item Place DNeasy Mini spin column into a clean 1.5-mL microcentrifuge tube. Add 200 $\mu$L of buffer AE and incubate at room tempurature for 1 min. Centrifuge at $\geq 6,000$ x $g$ for 1 min to elute.
+  \item Place DNeasy Mini spin column into a clean 1.5-mL microcentrifuge tube. Add 200 $\mu$L of buffer AE and incubate at room temperature for 1 min. Centrifuge at $\geq 6,000$ x $g$ for 1 min to elute.
   \item Check gDNA concentration on the nano spectrophotometer. Then store at $-20^\circ$C or continue to \hyperref[1rA]{16S rDNA Amplification}.
 \end{enumerate}
 
@@ -152,27 +152,27 @@ I do not know why you are reading this protocol.
 \section{PCR}\label{aA}
 \subsection{Master Mix Recipe}
 Below is a recipe for a single,
-40-$\mu$L 16S rDNA PCR using Phusion Polymerase.
+40-$\mu$L 16S rDNA PCR using \href{https://www.neb.com/protocols/0001/01/01/pcr-protocol-m0530}{Phusion Polymerase}.
 To generate a master mix for $N$ samples,
 simply multiply the volumes by $N*1.1$ to account for pipetting errors.
 \begin{table}[h]
-  \begin{tabular}{|l|c|}
+  \begin{tabular}{|r|c|}
     \hline
     \textbf{Component} & \textbf{Volume ($\mu$L)} \\
     \hline
     \texttt{ddH$_2$O} & \texttt{20.8} \\
     \hline
-    \texttt{5X HF reaction buffer} & \texttt{8.0} \\
+    \texttt{5X HF reaction buffer} & \texttt{ 8.0} \\
     \hline
-    \texttt{dNTPs} & \texttt{0.8}\\
+    \texttt{10mM dNTPs} & \texttt{ 0.8}\\
     \hline
-    \texttt{3 $\mu$M 27F forward primer} & \texttt{4.0} \\
+    \texttt{3 $\mu$M 27F forward primer} & \texttt{ 4.0} \\
     \hline
-    \texttt{3 $\mu$M 1492R reverse primer} & \texttt{4.0} \\
+    \texttt{3 $\mu$M 1492R reverse primer} & \texttt{ 4.0} \\
     \hline
-    \texttt{Phusion polymerase} & \texttt{0.4} \\
+    \texttt{Phusion polymerase} & \texttt{ 0.4} \\
     \hline
-    \texttt{template gDNA} & \texttt{2.0} \\
+    \texttt{template gDNA} & \texttt{ 2.0} \\
     \hline
     \texttt{Total} & \texttt{40.0} \\
     \hline
@@ -184,7 +184,7 @@ simply multiply the volumes by $N*1.1$ to account for pipetting errors.
 The following program can be found under Kapil's folder in the Hwa-lab thermocycler
 (\texttt{NSB2106\textbackslash kapil\textbackslash 16s phusion}).
 \begin{table}[h]
-  \begin{tabular}{|l|c|c|}
+  \begin{tabular}{|r|c|c|}
     \hline
     \textbf{Step} & \textbf{Temperature ($^\circ$C)} & \textbf{Time (mm:ss)}\\
     \hline
@@ -209,27 +209,19 @@ The following program can be found under Kapil's folder in the Hwa-lab thermocyc
 \section{Genewiz}\label{aB}
 \subsection{Sample Mix Recipe}
 Below is a recipe for a single,
-15-$\mu$L 16S rDNA Sanger Sequencing sample.
+15-$\mu$L 16S rDNA Sanger Sequencing sample when sequencing through \href{https://www.genewiz.com/}{Genewiz}.
 \begin{table}[h]
-  \begin{tabular}{|l|c|}
+  \begin{tabular}{|r|c|}
     \hline
     \textbf{Component} & \textbf{Volume ($\mu$L)} \\
     \hline
-    \texttt{ddH$_2$O} & \texttt{20.8} \\
+    \texttt{ddH$_2$O} & \texttt{11.0} \\
     \hline
-    \texttt{5X HF reaction buffer} & \texttt{8.0} \\
+    \texttt{3 $\mu$M 27F forward primer} & \texttt{ 2.0} \\
     \hline
-    \texttt{dNTPs} & \texttt{0.8}\\
+    \texttt{15 ng\slash $\mu$L 16S rDNA amplicon} & \texttt{ 2.0} \\
     \hline
-    \texttt{3 $\mu$M 27F forward primer} & \texttt{4.0} \\
-    \hline
-    \texttt{3 $\mu$M 1492R reverse primer} & \texttt{4.0} \\
-    \hline
-    \texttt{Phusion polymerase} & \texttt{0.4} \\
-    \hline
-    \texttt{template gDNA} & \texttt{2.0} \\
-    \hline
-    \texttt{Total} & \texttt{40.0} \\
+    \texttt{Total} & \texttt{15.0} \\
     \hline
   \end{tabular}
   \label{tab:SS_recp}
